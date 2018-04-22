@@ -12,10 +12,6 @@ if [ "$1" == "arch" ] || [ "$1" == "antergos" ] || [ "$1" == "manjaro" ]; then
 	yaourt -S spotify-stable --noconfirm
 	yaourt -S slack-desktop --noconfirm
 	yaourt -S rstudio-desktop-bin --noconfirm
-elif [ "$1" == "debian" ] || [ "$1" == "ubuntu" ] || [ "$1" == "mint" ] || [ "$1" == "deepin" ]; then
-	# TODO
-	apt-get install vim
-	
 fi
 
 if [ "$2" == "i3" ]; then
